@@ -9,7 +9,7 @@ export default function RollDice({ currentDice, roleDice }) {
       <div className='dice' onClick={roleDice}>
         <img src={`./images/dices/dice_${currentDice}.png`} alt="diceImg" />
       </div>
-      <p>Click on the Dice to roll</p>
+      <p>Click on the Dice to Roll</p>
     </DiceContainer>
   )
 }
